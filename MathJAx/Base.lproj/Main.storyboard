@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MathJAx" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hkx-cy-8JJ">
+                                <rect key="frame" x="23" y="28" width="329" height="116"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="116" id="0Sh-qH-ZGM"/>
+                                    <constraint firstAttribute="height" constant="116" id="8ia-W7-fS6"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="329" id="RsT-ap-ziP"/>
+                                    <constraint firstAttribute="width" constant="329" id="jmo-x2-nuE"/>
+                                </constraints>
+                            </webView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="30" minValue="10" maxValue="50" translatesAutoresizingMaskIntoConstraints="NO" id="17d-69-EOf">
+                                <rect key="frame" x="78" y="617" width="218" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="214" id="2f9-cf-5G6"/>
+                                    <constraint firstAttribute="height" constant="30" id="UlU-2U-u0G"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="sliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Y6Q-k5-uo5"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hkx-cy-8JJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="44D-em-NbR"/>
+                            <constraint firstItem="17d-69-EOf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CQu-oG-m47"/>
+                            <constraint firstItem="hkx-cy-8JJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="QWX-zt-v9G"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hkx-cy-8JJ" secondAttribute="trailing" constant="7" id="QYU-Aa-c0c"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="17d-69-EOf" secondAttribute="bottom" constant="20" id="VJw-t7-Yjm"/>
+                            <constraint firstItem="hkx-cy-8JJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="dc8-JF-AoO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webview" destination="hkx-cy-8JJ" id="OAd-6H-K4W"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>

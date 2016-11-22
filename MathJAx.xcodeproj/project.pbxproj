@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8DFFB3F1DE3ED07004466CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DFFB3E1DE3ED07004466CE /* AppDelegate.swift */; };
+		A8DFFB411DE3ED07004466CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DFFB401DE3ED07004466CE /* ViewController.swift */; };
+		A8DFFB441DE3ED07004466CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8DFFB421DE3ED07004466CE /* Main.storyboard */; };
+		A8DFFB461DE3ED07004466CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8DFFB451DE3ED07004466CE /* Assets.xcassets */; };
+		A8DFFB491DE3ED07004466CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8DFFB471DE3ED07004466CE /* LaunchScreen.storyboard */; };
+		A8DFFB541DE3ED08004466CE /* MathJAxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DFFB531DE3ED08004466CE /* MathJAxTests.swift */; };
+		A8DFFB5F1DE3ED08004466CE /* MathJAxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DFFB5E1DE3ED08004466CE /* MathJAxUITests.swift */; };
+		A8EC162D1DE40A2B00CB5F6D /* MathJax-2.7.0 in Resources */ = {isa = PBXBuildFile; fileRef = A8EC162C1DE40A2B00CB5F6D /* MathJax-2.7.0 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8DFFB501DE3ED08004466CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8DFFB331DE3ED07004466CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8DFFB3A1DE3ED07004466CE;
+			remoteInfo = MathJAx;
+		};
+		A8DFFB5B1DE3ED08004466CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8DFFB331DE3ED07004466CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8DFFB3A1DE3ED07004466CE;
+			remoteInfo = MathJAx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8DFFB3B1DE3ED07004466CE /* MathJAx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathJAx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8DFFB3E1DE3ED07004466CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8DFFB401DE3ED07004466CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8DFFB431DE3ED07004466CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8DFFB451DE3ED07004466CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8DFFB481DE3ED07004466CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8DFFB4A1DE3ED07004466CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8DFFB4F1DE3ED08004466CE /* MathJAxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathJAxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8DFFB531DE3ED08004466CE /* MathJAxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathJAxTests.swift; sourceTree = "<group>"; };
+		A8DFFB551DE3ED08004466CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8DFFB5A1DE3ED08004466CE /* MathJAxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathJAxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8DFFB5E1DE3ED08004466CE /* MathJAxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathJAxUITests.swift; sourceTree = "<group>"; };
+		A8DFFB601DE3ED08004466CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8EC162C1DE40A2B00CB5F6D /* MathJax-2.7.0 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "MathJax-2.7.0"; path = "../../MathJax/Vendor/MathJax-2.7.0"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8DFFB381DE3ED07004466CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8DFFB4C1DE3ED08004466CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8DFFB571DE3ED08004466CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8DFFB321DE3ED07004466CE = {
+			isa = PBXGroup;
+			children = (
+				A8DFFB3D1DE3ED07004466CE /* MathJAx */,
+				A8DFFB521DE3ED08004466CE /* MathJAxTests */,
+				A8DFFB5D1DE3ED08004466CE /* MathJAxUITests */,
+				A8DFFB3C1DE3ED07004466CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8DFFB3C1DE3ED07004466CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8DFFB3B1DE3ED07004466CE /* MathJAx.app */,
+				A8DFFB4F1DE3ED08004466CE /* MathJAxTests.xctest */,
+				A8DFFB5A1DE3ED08004466CE /* MathJAxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8DFFB3D1DE3ED07004466CE /* MathJAx */ = {
+			isa = PBXGroup;
+			children = (
+				A8DFFB3E1DE3ED07004466CE /* AppDelegate.swift */,
+				A8DFFB401DE3ED07004466CE /* ViewController.swift */,
+				A8DFFB421DE3ED07004466CE /* Main.storyboard */,
+				A8DFFB451DE3ED07004466CE /* Assets.xcassets */,
+				A8DFFB471DE3ED07004466CE /* LaunchScreen.storyboard */,
+				A8DFFB4A1DE3ED07004466CE /* Info.plist */,
+				A8EC162C1DE40A2B00CB5F6D /* MathJax-2.7.0 */,
+			);
+			path = MathJAx;
+			sourceTree = "<group>";
+		};
+		A8DFFB521DE3ED08004466CE /* MathJAxTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8DFFB531DE3ED08004466CE /* MathJAxTests.swift */,
+				A8DFFB551DE3ED08004466CE /* Info.plist */,
+			);
+			path = MathJAxTests;
+			sourceTree = "<group>";
+		};
+		A8DFFB5D1DE3ED08004466CE /* MathJAxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8DFFB5E1DE3ED08004466CE /* MathJAxUITests.swift */,
+				A8DFFB601DE3ED08004466CE /* Info.plist */,
+			);
+			path = MathJAxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8DFFB3A1DE3ED07004466CE /* MathJAx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8DFFB631DE3ED08004466CE /* Build configuration list for PBXNativeTarget "MathJAx" */;
+			buildPhases = (
+				A8DFFB371DE3ED07004466CE /* Sources */,
+				A8DFFB381DE3ED07004466CE /* Frameworks */,
+				A8DFFB391DE3ED07004466CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathJAx;
+			productName = MathJAx;
+			productReference = A8DFFB3B1DE3ED07004466CE /* MathJAx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8DFFB4E1DE3ED08004466CE /* MathJAxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8DFFB661DE3ED08004466CE /* Build configuration list for PBXNativeTarget "MathJAxTests" */;
+			buildPhases = (
+				A8DFFB4B1DE3ED08004466CE /* Sources */,
+				A8DFFB4C1DE3ED08004466CE /* Frameworks */,
+				A8DFFB4D1DE3ED08004466CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8DFFB511DE3ED08004466CE /* PBXTargetDependency */,
+			);
+			name = MathJAxTests;
+			productName = MathJAxTests;
+			productReference = A8DFFB4F1DE3ED08004466CE /* MathJAxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8DFFB591DE3ED08004466CE /* MathJAxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8DFFB691DE3ED08004466CE /* Build configuration list for PBXNativeTarget "MathJAxUITests" */;
+			buildPhases = (
+				A8DFFB561DE3ED08004466CE /* Sources */,
+				A8DFFB571DE3ED08004466CE /* Frameworks */,
+				A8DFFB581DE3ED08004466CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8DFFB5C1DE3ED08004466CE /* PBXTargetDependency */,
+			);
+			name = MathJAxUITests;
+			productName = MathJAxUITests;
+			productReference = A8DFFB5A1DE3ED08004466CE /* MathJAxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8DFFB331DE3ED07004466CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Keke Arif";
+				TargetAttributes = {
+					A8DFFB3A1DE3ED07004466CE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4WK6LK5275;
+						ProvisioningStyle = Automatic;
+					};
+					A8DFFB4E1DE3ED08004466CE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A8DFFB3A1DE3ED07004466CE;
+					};
+					A8DFFB591DE3ED08004466CE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A8DFFB3A1DE3ED07004466CE;
+					};
+				};
+			};
+			buildConfigurationList = A8DFFB361DE3ED07004466CE /* Build configuration list for PBXProject "MathJAx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8DFFB321DE3ED07004466CE;
+			productRefGroup = A8DFFB3C1DE3ED07004466CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8DFFB3A1DE3ED07004466CE /* MathJAx */,
+				A8DFFB4E1DE3ED08004466CE /* MathJAxTests */,
+				A8DFFB591DE3ED08004466CE /* MathJAxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8DFFB391DE3ED07004466CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8EC162D1DE40A2B00CB5F6D /* MathJax-2.7.0 in Resources */,
+				A8DFFB491DE3ED07004466CE /* LaunchScreen.storyboard in Resources */,
+				A8DFFB461DE3ED07004466CE /* Assets.xcassets in Resources */,
+				A8DFFB441DE3ED07004466CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8DFFB4D1DE3ED08004466CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8DFFB581DE3ED08004466CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8DFFB371DE3ED07004466CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8DFFB411DE3ED07004466CE /* ViewController.swift in Sources */,
+				A8DFFB3F1DE3ED07004466CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8DFFB4B1DE3ED08004466CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8DFFB541DE3ED08004466CE /* MathJAxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8DFFB561DE3ED08004466CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8DFFB5F1DE3ED08004466CE /* MathJAxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8DFFB511DE3ED08004466CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8DFFB3A1DE3ED07004466CE /* MathJAx */;
+			targetProxy = A8DFFB501DE3ED08004466CE /* PBXContainerItemProxy */;
+		};
+		A8DFFB5C1DE3ED08004466CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8DFFB3A1DE3ED07004466CE /* MathJAx */;
+			targetProxy = A8DFFB5B1DE3ED08004466CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8DFFB421DE3ED07004466CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8DFFB431DE3ED07004466CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8DFFB471DE3ED07004466CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8DFFB481DE3ED07004466CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8DFFB611DE3ED08004466CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8DFFB621DE3ED08004466CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8DFFB641DE3ED08004466CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4WK6LK5275;
+				INFOPLIST_FILE = MathJAx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keke.MathJAx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A8DFFB651DE3ED08004466CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4WK6LK5275;
+				INFOPLIST_FILE = MathJAx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keke.MathJAx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A8DFFB671DE3ED08004466CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MathJAxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keke.MathJAxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathJAx.app/MathJAx";
+			};
+			name = Debug;
+		};
+		A8DFFB681DE3ED08004466CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MathJAxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keke.MathJAxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathJAx.app/MathJAx";
+			};
+			name = Release;
+		};
+		A8DFFB6A1DE3ED08004466CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MathJAxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keke.MathJAxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MathJAx;
+			};
+			name = Debug;
+		};
+		A8DFFB6B1DE3ED08004466CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MathJAxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keke.MathJAxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MathJAx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8DFFB361DE3ED07004466CE /* Build configuration list for PBXProject "MathJAx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8DFFB611DE3ED08004466CE /* Debug */,
+				A8DFFB621DE3ED08004466CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8DFFB631DE3ED08004466CE /* Build configuration list for PBXNativeTarget "MathJAx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8DFFB641DE3ED08004466CE /* Debug */,
+				A8DFFB651DE3ED08004466CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8DFFB661DE3ED08004466CE /* Build configuration list for PBXNativeTarget "MathJAxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8DFFB671DE3ED08004466CE /* Debug */,
+				A8DFFB681DE3ED08004466CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8DFFB691DE3ED08004466CE /* Build configuration list for PBXNativeTarget "MathJAxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8DFFB6A1DE3ED08004466CE /* Debug */,
+				A8DFFB6B1DE3ED08004466CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8DFFB331DE3ED07004466CE /* Project object */;
+}
